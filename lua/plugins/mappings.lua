@@ -27,8 +27,6 @@ return {
           ["<S-CR>"] = { "<ESC>o<c-g>u", desc = "Next Line" },
           ["<C-\\>"] = { "<cmd>ToggleTerm direction=float<cr>", desc = "open term" },
           ["<leader>lS"] = { ":TagbarToggle<cr>", desc = "Open Tagbar" },
-          ["<A-j>"] = { ":m .+1<CR>==", desc = "Move Line Up" },
-          ["<A-k>"] = { ":m .-2<CR>==", desc = "Move Line Down" },
         },
         i = {
           ["<C-\\>"] = { "<ESC><cmd>ToggleTerm<cr>", desc = "open term" },
@@ -36,8 +34,6 @@ return {
           ["<C-CR>"] = { "<ESC>$a", desc = "Move cursor to line end" },
           ["<CR>"] = { "<c-g>u<cr>", desc = "Next Line" },
           ["<C-S-CR>"] = { "<ESC>$a;<c-g>u<ESC>zt", desc = "Auto Complete Statement" },
-          ["<A-j>"] = { "<ESC>:m .+1<CR>==", desc = "Move Line Up" },
-          ["<A-k>"] = { "<ESC>:m .-2<CR>==", desc = "Move Line Down" },
           ["jk"] = { "<ESC>", desc = "ESC" },
           ["jj"] = { "<ESC>", desc = "ESC" },
         },
